@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming media HW",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Long-T-Hoang/streaming-media-assignment.git"
+  },
+  "author": "Long Hoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Long-T-Hoang/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/Long-T-Hoang/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
